@@ -15,18 +15,18 @@ public class ControlFlowOps {
         }
     }
 
-    private int findLargest(int a, int b, int c){
+    public int findLargest(int a, int b, int c){
         return (a >= b && a >= c) ? a : (b >= c ? b : c);
     }
 
-    private void printMultiplicationTable(int num){
+    public void printMultiplicationTable(int num){
         System.out.println("Multiplication Table for " + num + ":");
         for(int i = 1; i <= 10; i++){
             System.out.println(num + " * " + i + " = " + (num*i));
         }
     }
 
-    private int sumOfEvenNumbers(){
+    public int sumOfEvenNumbers(){
         int sum = 0, i = 2;
         while(i <= 10){
             sum += i;
