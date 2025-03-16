@@ -1,7 +1,8 @@
-package arrays;
+package Arrays;
 
 public class ArrayOps {
-    private double arrayAvg(int[] arr){
+    public double arrayAvg(int[] arr){
+        if(arr.length == 0) return 0;
         double sum = 0;
         for(int num: arr){
             sum+=num;

@@ -1,4 +1,4 @@
-package data_types_operators;
+package Data_types_operators;
 import java.util.Scanner;
 
 public class OperatorsDemo {
